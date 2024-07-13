@@ -1,0 +1,186 @@
+/* shared styles here  */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+main{
+    margin: 0px 240px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header styles here  */
+
+/* banner */
+
+#header{
+    width: 100%;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.1);
+    margin-bottom: 180px;
+}
+
+.header-content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.header-title{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-para{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-btn{
+    font-family: Lato;
+    border-radius: 8px;
+    background: rgb(229, 84, 115); 
+    padding: 20px 43px;
+    border: none;
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-image{
+    position: relative;
+    top: 50px;
+}
+
+.header-contents-text{
+    margin-left: 240px;
+}
+
+.header-contents-img{
+    margin-right: 240px;
+}
+
+.header-title, .header-para{
+    margin-bottom: 32px;
+}
+
+/* main section styles here  */
+
+/* main section 1 styles here  */
+
+
+
+.main-section-1-heading, .main-section-1-para{
+    text-align: center;
+}
+
+.main-section-1-heading{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.main-section-1-para{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 50px;
+}
+
+/* box styles here  */
+
+.main-section-1-box-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+/* box-1  */
+
+.box-1, .boxs{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.1);
+    width: 464px;
+    height: 538px;
+    margin-bottom: 32px;
+}
+
+.img-1{
+    position: relative;
+    top: 110px;
+    left: 78px;
+    right: 78px;
+}
+
+/* box-2 */
+
+.box-2, .boxs{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    margin-bottom: 32px;
+}
+
+.img-2{
+    position: relative;
+    top: 117px;
+    left: 47px;
+    right: 47px;
+    bottom: 51px;
+}
+
+/* box-3 */
+
+.box-3, .boxs{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    margin-bottom: 32px;
+}
+
+.img-3{
+    position: relative;
+    top: 67px;
+    left: 75px;
+    right: 75px;
+}
+
+.flower-text{
+    color: rgb(39, 39, 39);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: underline;
+}

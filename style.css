@@ -2,20 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     font-family: "Lato", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
 
-main{
+
+.main-section-1-container, .main-section-2-container{
     margin: 0px 240px;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 /* header styles here  */
 
@@ -212,4 +215,68 @@ main{
     font-weight: 600;
     line-height: 35px;
     letter-spacing: 0%;
+}
+
+/* section-3 styles here  */
+
+.main-section-3-container{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 100%;
+    /* height: 620px; */
+    margin-bottom: 130px;
+}
+
+.section-3-content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 190px;
+    padding: 100px 0px;
+}
+
+.section-3-text-content h2{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.off{
+    color: red;
+}
+
+.section-3-text-content p{
+    color: rgba(39, 39, 39, 0.6);
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.section-3-text-content button{
+    border-radius: 8px;
+    padding: 20px 43px 20px 43px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+    border: none;
+}
+
+.section-3-text-content{
+    margin-left: 400px;
+}
+
+.section-3-img-content{
+    margin-right: 400px;
 }

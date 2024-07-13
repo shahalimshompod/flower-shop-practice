@@ -14,11 +14,24 @@ body{
 }
 
 
-.main-section-1-container, .main-section-2-container{
+.main-section-1-container, .main-section-2-container, .main-section-4-container{
     margin: 0px 240px;
 }
 
+.header-btn:hover{
+   background-color: rgb(88, 175, 0);
+   cursor: pointer;
+}
 
+.section-3-text-content button:hover{
+    background-color: rgb(88, 175, 0);
+   cursor: pointer;
+}
+
+.section-4-form-container button:hover{
+    background-color: rgb(88, 175, 0);
+   cursor: pointer;
+}
 
 /* header styles here  */
 
@@ -279,4 +292,136 @@ body{
 
 .section-3-img-content{
     margin-right: 400px;
+}
+
+/* section-4 styles here  */
+
+.main-section-4-container h3{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.main-section-4-container p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section-4-img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.section-4-form-container{
+    background-image: url(./assets/images/latest-deals-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 125px 280px;
+    border-radius: 8px;
+}
+
+.section-4-form-container h2{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.section-4-form-container p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section-4-form-container input{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 700px;
+    height: 64px;
+    border: none;
+    
+}
+
+.section-4-form-container button{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    padding: 18px 31px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    height: 64px;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+
+.img-content{
+    border-radius: 10px;
+}
+
+.main-section-4-container{
+    margin-bottom: 130px;
+}
+
+/* footer styles here  */
+
+#footer-container{
+    background: rgb(17, 16, 16);
+    padding: 130px 650px;
+}
+
+.footer-content-container h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.footer-content-container h2 .footer-flower{
+    color: red;
+}
+
+.footer-content-container p{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.footer-content-container h6{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
 }
